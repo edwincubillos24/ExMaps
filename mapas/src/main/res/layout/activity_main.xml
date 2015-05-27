@@ -19,12 +19,20 @@
             android:id="@+id/button1"/>
 
         <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="University Location"
+        android:onClick="onClickU"
+        android:id="@+id/button2"/>
+
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="University Location"
-            android:onClick="onClickU"
-            android:id="@+id/button2"/>
+            android:text="Current Location"
+            android:onClick="onClickCurrent"
+            android:id="@+id/button3"/>
 
     </LinearLayout>
 
